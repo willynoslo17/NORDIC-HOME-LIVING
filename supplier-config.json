@@ -1,0 +1,13 @@
+{
+  "store": "home",
+  "cjDropshipping": {
+    "enabled": true,
+    "query": "home living",
+    "catalogMode": "live-with-local-fallback"
+  },
+  "germanDrop": {
+    "enabled": false,
+    "mode": "not-authorized"
+  },
+  "markets": ["NO", "EU", "PE"]
+}
