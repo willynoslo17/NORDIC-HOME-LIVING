@@ -1,5 +1,4 @@
 const BASE = "https://api.printify.com/v1";
-
 const SELECTED: any[] = [
   {
     "id": "printify-home-living-1",
@@ -14,7 +13,8 @@ const SELECTED: any[] = [
     "suggestedRetailUsd": 22.5,
     "image": "https://images.unsplash.com/photo-1590874103328-eac38a67478e?auto=format&fit=crop&w=800&q=80",
     "matchType": "tote",
-    "sector": "home living"
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
   },
   {
     "id": "printify-home-living-2",
@@ -29,7 +29,8 @@ const SELECTED: any[] = [
     "suggestedRetailUsd": 21.9,
     "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
     "matchType": "tote",
-    "sector": "home living"
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
   },
   {
     "id": "printify-home-living-3",
@@ -44,7 +45,8 @@ const SELECTED: any[] = [
     "suggestedRetailUsd": 23.5,
     "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=800&q=80",
     "matchType": "tote",
-    "sector": "home living"
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
   },
   {
     "id": "printify-home-living-4",
@@ -59,7 +61,8 @@ const SELECTED: any[] = [
     "suggestedRetailUsd": 24.9,
     "image": "https://images.unsplash.com/photo-1513519245088-0e12902e35a6?auto=format&fit=crop&w=800&q=80",
     "matchType": "poster",
-    "sector": "home living"
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
   },
   {
     "id": "printify-home-living-5",
@@ -74,7 +77,8 @@ const SELECTED: any[] = [
     "suggestedRetailUsd": 23.9,
     "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80",
     "matchType": "poster",
-    "sector": "home living"
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
   },
   {
     "id": "printify-home-living-6",
@@ -89,7 +93,8 @@ const SELECTED: any[] = [
     "suggestedRetailUsd": 22.9,
     "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=800&q=80",
     "matchType": "poster",
-    "sector": "home living"
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
   },
   {
     "id": "printify-home-living-7",
@@ -104,7 +109,8 @@ const SELECTED: any[] = [
     "suggestedRetailUsd": 19.9,
     "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcc036?auto=format&fit=crop&w=800&q=80",
     "matchType": "mug",
-    "sector": "home living"
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
   },
   {
     "id": "printify-home-living-8",
@@ -119,7 +125,8 @@ const SELECTED: any[] = [
     "suggestedRetailUsd": 18.9,
     "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80",
     "matchType": "mug",
-    "sector": "home living"
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
   },
   {
     "id": "printify-home-living-9",
@@ -134,7 +141,8 @@ const SELECTED: any[] = [
     "suggestedRetailUsd": 17.9,
     "image": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?auto=format&fit=crop&w=800&q=80",
     "matchType": "mug",
-    "sector": "home living"
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
   },
   {
     "id": "printify-home-living-10",
@@ -149,7 +157,8 @@ const SELECTED: any[] = [
     "suggestedRetailUsd": 21.5,
     "image": "https://images.unsplash.com/photo-1556911220-bff31c9870c0?auto=format&fit=crop&w=800&q=80",
     "matchType": "poster",
-    "sector": "home living"
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
   },
   {
     "id": "printify-home-living-11",
@@ -164,7 +173,8 @@ const SELECTED: any[] = [
     "suggestedRetailUsd": 20.9,
     "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
     "matchType": "tote",
-    "sector": "home living"
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
   },
   {
     "id": "printify-home-living-12",
@@ -179,7 +189,8 @@ const SELECTED: any[] = [
     "suggestedRetailUsd": 16.9,
     "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcc036?auto=format&fit=crop&w=800&q=80",
     "matchType": "mug",
-    "sector": "home living"
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
   },
   {
     "id": "printify-home-living-13",
@@ -194,7 +205,8 @@ const SELECTED: any[] = [
     "suggestedRetailUsd": 23.5,
     "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=800&q=80",
     "matchType": "poster",
-    "sector": "home living"
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
   },
   {
     "id": "printify-home-living-14",
@@ -209,7 +221,8 @@ const SELECTED: any[] = [
     "suggestedRetailUsd": 17.5,
     "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80",
     "matchType": "mug",
-    "sector": "home living"
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
   },
   {
     "id": "printify-home-living-15",
@@ -224,7 +237,8 @@ const SELECTED: any[] = [
     "suggestedRetailUsd": 22.9,
     "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=800&q=80",
     "matchType": "tote",
-    "sector": "home living"
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
   },
   {
     "id": "printify-home-living-16",
@@ -239,7 +253,8 @@ const SELECTED: any[] = [
     "suggestedRetailUsd": 23.9,
     "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=800&q=80",
     "matchType": "poster",
-    "sector": "home living"
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
   },
   {
     "id": "printify-home-living-17",
@@ -254,7 +269,8 @@ const SELECTED: any[] = [
     "suggestedRetailUsd": 22.5,
     "image": "https://images.unsplash.com/photo-1590874103328-eac38a67478e?auto=format&fit=crop&w=800&q=80",
     "matchType": "tote",
-    "sector": "home living"
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
   },
   {
     "id": "printify-home-living-18",
@@ -269,7 +285,8 @@ const SELECTED: any[] = [
     "suggestedRetailUsd": 18.5,
     "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcc036?auto=format&fit=crop&w=800&q=80",
     "matchType": "mug",
-    "sector": "home living"
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
   },
   {
     "id": "printify-home-living-19",
@@ -284,7 +301,8 @@ const SELECTED: any[] = [
     "suggestedRetailUsd": 24.5,
     "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80",
     "matchType": "poster",
-    "sector": "home living"
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
   },
   {
     "id": "printify-home-living-20",
@@ -299,7 +317,8 @@ const SELECTED: any[] = [
     "suggestedRetailUsd": 21.9,
     "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
     "matchType": "tote",
-    "sector": "home living"
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
   },
   {
     "id": "printify-home-living-21",
@@ -314,7 +333,8 @@ const SELECTED: any[] = [
     "suggestedRetailUsd": 17.9,
     "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80",
     "matchType": "mug",
-    "sector": "home living"
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
   },
   {
     "id": "printify-home-living-22",
@@ -329,7 +349,8 @@ const SELECTED: any[] = [
     "suggestedRetailUsd": 22.9,
     "image": "https://images.unsplash.com/photo-1513519245088-0e12902e35a6?auto=format&fit=crop&w=800&q=80",
     "matchType": "poster",
-    "sector": "home living"
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
   },
   {
     "id": "printify-home-living-23",
@@ -344,7 +365,8 @@ const SELECTED: any[] = [
     "suggestedRetailUsd": 20.9,
     "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=800&q=80",
     "matchType": "tote",
-    "sector": "home living"
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
   },
   {
     "id": "printify-home-living-24",
@@ -359,7 +381,8 @@ const SELECTED: any[] = [
     "suggestedRetailUsd": 16.9,
     "image": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?auto=format&fit=crop&w=800&q=80",
     "matchType": "mug",
-    "sector": "home living"
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
   },
   {
     "id": "printify-home-living-25",
@@ -374,10 +397,410 @@ const SELECTED: any[] = [
     "suggestedRetailUsd": 25.5,
     "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=800&q=80",
     "matchType": "poster",
-    "sector": "home living"
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
+  },
+  {
+    "id": "printify-home-living-26",
+    "sku": "PFY-HOME-POSTER-SOFTGEO",
+    "supplier": "Printify",
+    "provider": "printify",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Soft Geometry Home Poster",
+    "category": "Decor",
+    "supplierPriceUsd": 7.5,
+    "suggestedRetailUsd": 23.5,
+    "image": "https://images.unsplash.com/photo-1513519245088-0e12902e35a6?auto=format&fit=crop&w=800&q=80",
+    "matchType": "poster",
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
+  },
+  {
+    "id": "printify-home-living-27",
+    "sku": "PFY-HOME-TOTE-MORNING",
+    "supplier": "Printify",
+    "provider": "printify",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Market Morning Linen Tote",
+    "category": "Living",
+    "supplierPriceUsd": 7.1,
+    "suggestedRetailUsd": 22.5,
+    "image": "https://images.unsplash.com/photo-1590874103328-eac38a67478e?auto=format&fit=crop&w=800&q=80",
+    "matchType": "tote",
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
+  },
+  {
+    "id": "printify-home-living-28",
+    "sku": "PFY-HOME-MUG-QUIET",
+    "supplier": "Printify",
+    "provider": "printify",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Quiet Kitchen Coffee Mug",
+    "category": "Kitchen",
+    "supplierPriceUsd": 6.5,
+    "suggestedRetailUsd": 18.5,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcc036?auto=format&fit=crop&w=800&q=80",
+    "matchType": "mug",
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
+  },
+  {
+    "id": "printify-home-living-29",
+    "sku": "PFY-HOME-POSTER-WINDOW2",
+    "supplier": "Printify",
+    "provider": "printify",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Fjord Window Wall Poster",
+    "category": "Decor",
+    "supplierPriceUsd": 7.5,
+    "suggestedRetailUsd": 24.5,
+    "image": "https://images.unsplash.com/photo-1513519245088-0e12902e35a6?auto=format&fit=crop&w=800&q=80",
+    "matchType": "poster",
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
+  },
+  {
+    "id": "printify-home-living-30",
+    "sku": "PFY-HOME-TOTE-HERB",
+    "supplier": "Printify",
+    "provider": "printify",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Herb Garden Canvas Tote",
+    "category": "Kitchen",
+    "supplierPriceUsd": 7.1,
+    "suggestedRetailUsd": 21.5,
+    "image": "https://images.unsplash.com/photo-1590874103328-eac38a67478e?auto=format&fit=crop&w=800&q=80",
+    "matchType": "tote",
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
+  },
+  {
+    "id": "printify-home-living-31",
+    "sku": "PFY-HOME-MUG-TEA",
+    "supplier": "Printify",
+    "provider": "printify",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Evening Tea Ceramic Mug",
+    "category": "Kitchen",
+    "supplierPriceUsd": 6.5,
+    "suggestedRetailUsd": 17.5,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcc036?auto=format&fit=crop&w=800&q=80",
+    "matchType": "mug",
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
+  },
+  {
+    "id": "printify-home-living-32",
+    "sku": "PFY-HOME-POSTER-SOFTLINE",
+    "supplier": "Printify",
+    "provider": "printify",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Soft Line Art Poster",
+    "category": "Decor",
+    "supplierPriceUsd": 7.5,
+    "suggestedRetailUsd": 22.5,
+    "image": "https://images.unsplash.com/photo-1513519245088-0e12902e35a6?auto=format&fit=crop&w=800&q=80",
+    "matchType": "poster",
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
+  },
+  {
+    "id": "printify-home-living-33",
+    "sku": "PFY-HOME-TOTE-LAUNDRY2",
+    "supplier": "Printify",
+    "provider": "printify",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Laundry Soft Day Tote",
+    "category": "Living",
+    "supplierPriceUsd": 7.1,
+    "suggestedRetailUsd": 20.5,
+    "image": "https://images.unsplash.com/photo-1590874103328-eac38a67478e?auto=format&fit=crop&w=800&q=80",
+    "matchType": "tote",
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
+  },
+  {
+    "id": "printify-home-living-34",
+    "sku": "PFY-HOME-MUG-HEARTH",
+    "supplier": "Printify",
+    "provider": "printify",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Hearth Side Coffee Mug",
+    "category": "Living",
+    "supplierPriceUsd": 6.5,
+    "suggestedRetailUsd": 19.5,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcc036?auto=format&fit=crop&w=800&q=80",
+    "matchType": "mug",
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
+  },
+  {
+    "id": "printify-home-living-35",
+    "sku": "PFY-HOME-POSTER-PINE",
+    "supplier": "Printify",
+    "provider": "printify",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Pine Shadow Wall Poster",
+    "category": "Decor",
+    "supplierPriceUsd": 7.5,
+    "suggestedRetailUsd": 25.5,
+    "image": "https://images.unsplash.com/photo-1513519245088-0e12902e35a6?auto=format&fit=crop&w=800&q=80",
+    "matchType": "poster",
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
+  },
+  {
+    "id": "printify-home-living-36",
+    "sku": "PFY-HOME-TOTE-BAKERY",
+    "supplier": "Printify",
+    "provider": "printify",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Bakery Run Canvas Tote",
+    "category": "Kitchen",
+    "supplierPriceUsd": 7.1,
+    "suggestedRetailUsd": 23.5,
+    "image": "https://images.unsplash.com/photo-1590874103328-eac38a67478e?auto=format&fit=crop&w=800&q=80",
+    "matchType": "tote",
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
+  },
+  {
+    "id": "printify-home-living-37",
+    "sku": "PFY-HOME-MUG-RAINY",
+    "supplier": "Printify",
+    "provider": "printify",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Rainy Afternoon Mug",
+    "category": "Living",
+    "supplierPriceUsd": 6.5,
+    "suggestedRetailUsd": 16.5,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcc036?auto=format&fit=crop&w=800&q=80",
+    "matchType": "mug",
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
+  },
+  {
+    "id": "printify-home-living-38",
+    "sku": "PFY-HOME-POSTER-ARCH",
+    "supplier": "Printify",
+    "provider": "printify",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Soft Arch Decor Poster",
+    "category": "Decor",
+    "supplierPriceUsd": 7.5,
+    "suggestedRetailUsd": 21.5,
+    "image": "https://images.unsplash.com/photo-1513519245088-0e12902e35a6?auto=format&fit=crop&w=800&q=80",
+    "matchType": "poster",
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
+  },
+  {
+    "id": "printify-home-living-39",
+    "sku": "PFY-HOME-TOTE-CLOSET",
+    "supplier": "Printify",
+    "provider": "printify",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Closet Day Canvas Tote",
+    "category": "Living",
+    "supplierPriceUsd": 7.1,
+    "suggestedRetailUsd": 22.9,
+    "image": "https://images.unsplash.com/photo-1590874103328-eac38a67478e?auto=format&fit=crop&w=800&q=80",
+    "matchType": "tote",
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
+  },
+  {
+    "id": "printify-home-living-40",
+    "sku": "PFY-HOME-MUG-PAPER",
+    "supplier": "Printify",
+    "provider": "printify",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Sunday Paper Coffee Mug",
+    "category": "Kitchen",
+    "supplierPriceUsd": 6.5,
+    "suggestedRetailUsd": 18.9,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcc036?auto=format&fit=crop&w=800&q=80",
+    "matchType": "mug",
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
+  },
+  {
+    "id": "printify-home-living-41",
+    "sku": "PFY-HOME-POSTER-OAK",
+    "supplier": "Printify",
+    "provider": "printify",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Pale Oak Wall Poster",
+    "category": "Decor",
+    "supplierPriceUsd": 7.5,
+    "suggestedRetailUsd": 26.5,
+    "image": "https://images.unsplash.com/photo-1513519245088-0e12902e35a6?auto=format&fit=crop&w=800&q=80",
+    "matchType": "poster",
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
+  },
+  {
+    "id": "printify-home-living-42",
+    "sku": "PFY-HOME-TOTE-FARMERS",
+    "supplier": "Printify",
+    "provider": "printify",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Farmers Market Soft Tote",
+    "category": "Living",
+    "supplierPriceUsd": 7.1,
+    "suggestedRetailUsd": 24.5,
+    "image": "https://images.unsplash.com/photo-1590874103328-eac38a67478e?auto=format&fit=crop&w=800&q=80",
+    "matchType": "tote",
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
+  },
+  {
+    "id": "printify-home-living-43",
+    "sku": "PFY-HOME-MUG-SOFTLIGHT",
+    "supplier": "Printify",
+    "provider": "printify",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Soft Light Ceramic Mug",
+    "category": "Living",
+    "supplierPriceUsd": 6.5,
+    "suggestedRetailUsd": 17.9,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcc036?auto=format&fit=crop&w=800&q=80",
+    "matchType": "mug",
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
+  },
+  {
+    "id": "printify-home-living-44",
+    "sku": "PFY-HOME-POSTER-COAST",
+    "supplier": "Printify",
+    "provider": "printify",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Coastal Calm Poster",
+    "category": "Decor",
+    "supplierPriceUsd": 7.5,
+    "suggestedRetailUsd": 23.9,
+    "image": "https://images.unsplash.com/photo-1513519245088-0e12902e35a6?auto=format&fit=crop&w=800&q=80",
+    "matchType": "poster",
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
+  },
+  {
+    "id": "printify-home-living-45",
+    "sku": "PFY-HOME-TOTE-LINEN2",
+    "supplier": "Printify",
+    "provider": "printify",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Linen Closet Canvas Tote",
+    "category": "Living",
+    "supplierPriceUsd": 7.1,
+    "suggestedRetailUsd": 21.9,
+    "image": "https://images.unsplash.com/photo-1590874103328-eac38a67478e?auto=format&fit=crop&w=800&q=80",
+    "matchType": "tote",
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
+  },
+  {
+    "id": "printify-home-living-46",
+    "sku": "PFY-HOME-MUG-SHELF",
+    "supplier": "Printify",
+    "provider": "printify",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Night Shelf Coffee Mug",
+    "category": "Kitchen",
+    "supplierPriceUsd": 6.5,
+    "suggestedRetailUsd": 19.9,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcc036?auto=format&fit=crop&w=800&q=80",
+    "matchType": "mug",
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
+  },
+  {
+    "id": "printify-home-living-47",
+    "sku": "PFY-HOME-POSTER-CLAY",
+    "supplier": "Printify",
+    "provider": "printify",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Warm Clay Wall Poster",
+    "category": "Decor",
+    "supplierPriceUsd": 7.5,
+    "suggestedRetailUsd": 22.9,
+    "image": "https://images.unsplash.com/photo-1513519245088-0e12902e35a6?auto=format&fit=crop&w=800&q=80",
+    "matchType": "poster",
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
+  },
+  {
+    "id": "printify-home-living-48",
+    "sku": "PFY-HOME-TOTE-ENTRY",
+    "supplier": "Printify",
+    "provider": "printify",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Entryway Soft Tote",
+    "category": "Living",
+    "supplierPriceUsd": 7.1,
+    "suggestedRetailUsd": 23.9,
+    "image": "https://images.unsplash.com/photo-1590874103328-eac38a67478e?auto=format&fit=crop&w=800&q=80",
+    "matchType": "tote",
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
+  },
+  {
+    "id": "printify-home-living-49",
+    "sku": "PFY-HOME-MUG-STEAM",
+    "supplier": "Printify",
+    "provider": "printify",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Morning Steam Mug",
+    "category": "Kitchen",
+    "supplierPriceUsd": 6.5,
+    "suggestedRetailUsd": 16.9,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcc036?auto=format&fit=crop&w=800&q=80",
+    "matchType": "mug",
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
+  },
+  {
+    "id": "printify-home-living-50",
+    "sku": "PFY-HOME-POSTER-HORIZON",
+    "supplier": "Printify",
+    "provider": "printify",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Soft Horizon Home Poster",
+    "category": "Decor",
+    "supplierPriceUsd": 7.5,
+    "suggestedRetailUsd": 25.9,
+    "image": "https://images.unsplash.com/photo-1513519245088-0e12902e35a6?auto=format&fit=crop&w=800&q=80",
+    "matchType": "poster",
+    "sector": "home living",
+    "compliance": "EU/Nordic POD merch only \u2014 apparel/poster/mug/tote/case/cap; no cosmetics liquids, no toy CE claims, no health claims"
   }
 ];
-
 const SECTOR_ALIASES: Record<string, string> = {
   "beauty": "beauty",
   "perfume": "beauty",
@@ -407,12 +830,10 @@ const SECTOR_ALIASES: Record<string, string> = {
   "auto": "car accessories",
   "automotive": "car accessories"
 };
-
 function money(value: unknown) {
   const amount = Number(value);
   return Number.isFinite(amount) && amount > 0 ? Math.round(amount * 100) / 100 : 0;
 }
-
 function resolveSector(raw: string) {
   const key = String(raw || "").toLowerCase().trim();
   if (!key) return SELECTED[0]?.sector || "beauty";
@@ -422,7 +843,6 @@ function resolveSector(raw: string) {
   }
   return key;
 }
-
 function curated(sector: string) {
   return SELECTED
     .filter((p) => !p.sector || String(p.sector).toLowerCase() === sector)
@@ -440,21 +860,18 @@ function curated(sector: string) {
       image: String(p.image || ""),
       matchType: String(p.matchType || ""),
       sector: String(p.sector || sector),
+      compliance: String(p.compliance || "EU/Nordic POD merch"),
     }))
     .filter((p) => p.suggestedRetailUsd > 0 && p.name);
 }
-
 function haystack(p: any) {
   return [p.name, p.title, p.category, ...(Array.isArray(p.tags) ? p.tags : []), p.sku].join(" ").toLowerCase();
 }
-
 async function enrichFromLive(token: string, shopId: string, curatedProducts: any[]) {
   try {
     const apiUrl = new URL(BASE + `/shops/${shopId}/products.json`);
     apiUrl.searchParams.set("limit", "50");
-    const response = await fetch(apiUrl, {
-      headers: { Authorization: `Bearer ${token}`, "User-Agent": "NordicStore/1.0" },
-    });
+    const response = await fetch(apiUrl, { headers: { Authorization: `Bearer ${token}`, "User-Agent": "NordicStore/1.0" } });
     if (!response.ok) return curatedProducts;
     const result: any = await response.json();
     const list = Array.isArray(result?.data) ? result.data : Array.isArray(result) ? result : [];
@@ -491,11 +908,8 @@ async function enrichFromLive(token: string, shopId: string, curatedProducts: an
         enriched: true,
       };
     });
-  } catch (_) {
-    return curatedProducts;
-  }
+  } catch (_) { return curatedProducts; }
 }
-
 export default async (req: Request, context: any) => {
   if (req.method !== "GET") return Response.json({ error: "Method not allowed" }, { status: 405 });
   const url = new URL(req.url);
@@ -503,14 +917,12 @@ export default async (req: Request, context: any) => {
   const defaultSector = String(SELECTED[0]?.sector || "beauty");
   const sector = resolveSector(wanted || defaultSector);
   const headers = { "access-control-allow-origin": "*", "cache-control": "public, max-age=60" };
-  let products = curated(sector).slice(0, 30);
+  let products = curated(sector).slice(0, 50);
   const token = (typeof Netlify !== "undefined" && Netlify.env?.get) ? Netlify.env.get("PRINTIFY_API_TOKEN") : context?.env?.PRINTIFY_API_TOKEN;
   const shopId = ((typeof Netlify !== "undefined" && Netlify.env?.get) ? Netlify.env.get("PRINTIFY_SHOP_ID") : context?.env?.PRINTIFY_SHOP_ID) || "28847802";
-  if (token && products.length) {
-    products = await enrichFromLive(String(token), String(shopId), products);
-  }
+  if (token && products.length) products = await enrichFromLive(String(token), String(shopId), products);
   return Response.json(
-    { ok: true, supplier: "printify", sector, query: sector, products, count: products.length, source: "printify-selected-primary", markets: ["NO", "EU", "PE"] },
+    { ok: true, supplier: "printify", sector, query: sector, products, count: products.length, source: "printify-selected-primary", compliance: "EU/Nordic POD merch", markets: ["NO", "EU", "PE"] },
     { status: products.length ? 200 : 503, headers }
   );
 };
