@@ -1,94 +1,259 @@
-const BASE = "https://api.printful.com";
+const SELECTED: any[] = [
+  {
+    "id": "printful-home-living-1",
+    "sku": "PFL-HOME-TOTE-HYGGE",
+    "supplier": "Printful",
+    "provider": "printful",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Hygge Market Tote",
+    "category": "Living",
+    "supplierPriceUsd": 7.1,
+    "suggestedRetailUsd": 22.5,
+    "image": "https://images.unsplash.com/photo-1590874103328-eac38a67478e?auto=format&fit=crop&w=800&q=80",
+    "matchType": "tote",
+    "sector": "home living"
+  },
+  {
+    "id": "printful-home-living-2",
+    "sku": "PFL-HOME-TOTE-KITCHEN",
+    "supplier": "Printful",
+    "provider": "printful",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Scandi Kitchen Tote",
+    "category": "Kitchen",
+    "supplierPriceUsd": 7.1,
+    "suggestedRetailUsd": 21.9,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+    "matchType": "tote",
+    "sector": "home living"
+  },
+  {
+    "id": "printful-home-living-3",
+    "sku": "PFL-HOME-TOTE-LINEN",
+    "supplier": "Printful",
+    "provider": "printful",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Linen Life Canvas Tote",
+    "category": "Living",
+    "supplierPriceUsd": 7.1,
+    "suggestedRetailUsd": 23.5,
+    "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=800&q=80",
+    "matchType": "tote",
+    "sector": "home living"
+  },
+  {
+    "id": "printful-home-living-4",
+    "sku": "PFL-HOME-POSTER-LINE",
+    "supplier": "Printful",
+    "provider": "printful",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Scandi Line Art Poster",
+    "category": "Decor",
+    "supplierPriceUsd": 7.5,
+    "suggestedRetailUsd": 24.9,
+    "image": "https://images.unsplash.com/photo-1513519245088-0e12902e35a6?auto=format&fit=crop&w=800&q=80",
+    "matchType": "poster",
+    "sector": "home living"
+  },
+  {
+    "id": "printful-home-living-5",
+    "sku": "PFL-HOME-POSTER-FOREST",
+    "supplier": "Printful",
+    "provider": "printful",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Nordic Forest Wall Poster",
+    "category": "Decor",
+    "supplierPriceUsd": 7.5,
+    "suggestedRetailUsd": 23.9,
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80",
+    "matchType": "poster",
+    "sector": "home living"
+  },
+  {
+    "id": "printful-home-living-6",
+    "sku": "PFL-HOME-POSTER-BOTANICA",
+    "supplier": "Printful",
+    "provider": "printful",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Minimal Botanica Poster",
+    "category": "Decor",
+    "supplierPriceUsd": 7.5,
+    "suggestedRetailUsd": 22.9,
+    "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=800&q=80",
+    "matchType": "poster",
+    "sector": "home living"
+  },
+  {
+    "id": "printful-home-living-7",
+    "sku": "PFL-HOME-MUG-ACCENT",
+    "supplier": "Printful",
+    "provider": "printful",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Accent Mug \u2014 Nordic Home",
+    "category": "Home Merch",
+    "supplierPriceUsd": 6.5,
+    "suggestedRetailUsd": 19.9,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcc036?auto=format&fit=crop&w=800&q=80",
+    "matchType": "mug",
+    "sector": "home living"
+  },
+  {
+    "id": "printful-home-living-8",
+    "sku": "PFL-HOME-MUG-SUNDAY",
+    "supplier": "Printful",
+    "provider": "printful",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Sunday Slow Coffee Mug",
+    "category": "Kitchen",
+    "supplierPriceUsd": 6.5,
+    "suggestedRetailUsd": 18.9,
+    "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80",
+    "matchType": "mug",
+    "sector": "home living"
+  },
+  {
+    "id": "printful-home-living-9",
+    "sku": "PFL-HOME-MUG-CABIN",
+    "supplier": "Printful",
+    "provider": "printful",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Cosy Cabin Ceramic Mug",
+    "category": "Living",
+    "supplierPriceUsd": 6.5,
+    "suggestedRetailUsd": 17.9,
+    "image": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?auto=format&fit=crop&w=800&q=80",
+    "matchType": "mug",
+    "sector": "home living"
+  },
+  {
+    "id": "printful-home-living-10",
+    "sku": "PFL-HOME-POSTER-RECIPE",
+    "supplier": "Printful",
+    "provider": "printful",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Recipe Notes Kitchen Poster",
+    "category": "Kitchen",
+    "supplierPriceUsd": 7.5,
+    "suggestedRetailUsd": 21.5,
+    "image": "https://images.unsplash.com/photo-1556911220-bff31c9870c0?auto=format&fit=crop&w=800&q=80",
+    "matchType": "poster",
+    "sector": "home living"
+  },
+  {
+    "id": "printful-home-living-11",
+    "sku": "PFL-HOME-TOTE-FIKA",
+    "supplier": "Printful",
+    "provider": "printful",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Fika Time Tote",
+    "category": "Living",
+    "supplierPriceUsd": 7.1,
+    "suggestedRetailUsd": 20.9,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+    "matchType": "tote",
+    "sector": "home living"
+  },
+  {
+    "id": "printful-home-living-12",
+    "sku": "PFL-HOME-MUG-LIGHT",
+    "supplier": "Printful",
+    "provider": "printful",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Warm Light Quote Mug",
+    "category": "Decor",
+    "supplierPriceUsd": 6.5,
+    "suggestedRetailUsd": 16.9,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcc036?auto=format&fit=crop&w=800&q=80",
+    "matchType": "mug",
+    "sector": "home living"
+  },
+  {
+    "id": "printful-home-living-13",
+    "sku": "PFL-HOME-POSTER-LAGOM",
+    "supplier": "Printful",
+    "provider": "printful",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Lagom Living Poster",
+    "category": "Decor",
+    "supplierPriceUsd": 7.5,
+    "suggestedRetailUsd": 23.5,
+    "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=800&q=80",
+    "matchType": "poster",
+    "sector": "home living"
+  },
+  {
+    "id": "printful-home-living-14",
+    "sku": "PFL-HOME-MUG-MORNING",
+    "supplier": "Printful",
+    "provider": "printful",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Morning Light Coffee Mug",
+    "category": "Kitchen",
+    "supplierPriceUsd": 6.5,
+    "suggestedRetailUsd": 17.5,
+    "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80",
+    "matchType": "mug",
+    "sector": "home living"
+  },
+  {
+    "id": "printful-home-living-15",
+    "sku": "PFL-HOME-TOTE-MARKET",
+    "supplier": "Printful",
+    "provider": "printful",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Market Day Linen Tote",
+    "category": "Living",
+    "supplierPriceUsd": 7.1,
+    "suggestedRetailUsd": 22.9,
+    "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=800&q=80",
+    "matchType": "tote",
+    "sector": "home living"
+  }
+];
 
-const SECTOR_KEYWORDS: Record<string, string[]> = {
-  "beauty": [
-    "beauty",
-    "perfume",
-    "skincare",
-    "cosmetic",
-    "glow",
-    "tote",
-    "t-shirt",
-    "tee",
-    "mug",
-    "crewneck"
-  ],
-  "toys": [
-    "toy",
-    "kid",
-    "kids",
-    "child",
-    "poster",
-    "t-shirt",
-    "tee",
-    "educational",
-    "abc"
-  ],
-  "electronics": [
-    "tech",
-    "electronic",
-    "phone",
-    "case",
-    "tough",
-    "gadget",
-    "circuit",
-    "debug"
-  ],
-  "pet supplies": [
-    "pet",
-    "dog",
-    "cat",
-    "paw",
-    "tote",
-    "t-shirt",
-    "tee",
-    "animal"
-  ],
-  "home living": [
-    "home",
-    "living",
-    "decor",
-    "hygge",
-    "tote",
-    "poster",
-    "mug",
-    "kitchen",
-    "pillow"
-  ],
-  "fitness": [
-    "fitness",
-    "outdoor",
-    "trail",
-    "sport",
-    "hoodie",
-    "zip",
-    "t-shirt",
-    "tee",
-    "crewneck",
-    "gym"
-  ],
-  "solar energy": [
-    "solar",
-    "energy",
-    "watt",
-    "green",
-    "tote",
-    "poster",
-    "clean",
-    "eco"
-  ],
-  "car accessories": [
-    "car",
-    "auto",
-    "driver",
-    "garage",
-    "cap",
-    "hat",
-    "hoodie",
-    "zip",
-    "mobility",
-    "route"
-  ]
+const SECTOR_ALIASES: Record<string, string> = {
+  "beauty": "beauty",
+  "perfume": "beauty",
+  "perfumes": "beauty",
+  "skincare": "beauty",
+  "toys": "toys",
+  "kids": "toys",
+  "kid": "toys",
+  "children": "toys",
+  "electronics": "electronics",
+  "tech": "electronics",
+  "technology": "electronics",
+  "pet supplies": "pet supplies",
+  "pets": "pet supplies",
+  "pet": "pet supplies",
+  "home living": "home living",
+  "home": "home living",
+  "living": "home living",
+  "fitness": "fitness",
+  "outdoor": "fitness",
+  "sports": "fitness",
+  "solar energy": "solar energy",
+  "energy": "solar energy",
+  "solar": "solar energy",
+  "car accessories": "car accessories",
+  "car": "car accessories",
+  "auto": "car accessories",
+  "automotive": "car accessories"
 };
 
 function money(value: unknown) {
@@ -96,82 +261,54 @@ function money(value: unknown) {
   return Number.isFinite(amount) && amount > 0 ? Math.round(amount * 100) / 100 : 0;
 }
 
-function normalize(row: any, index: number) {
-  const sync = row?.sync_product || row;
-  const retail = money(sync?.retail_price || row?.retail_price);
-  return {
-    id: String(sync?.id || `printful-${index}`),
-    sku: String(sync?.external_id || sync?.id || ""),
-    supplier: "Printful",
-    provider: "printful",
-    name: String(sync?.name || "Printful product"),
-    category: "Printful",
-    supplierPriceUsd: retail,
-    suggestedRetailUsd: retail,
-    image: String(sync?.thumbnail_url || sync?.image || ""),
-  };
+function resolveSector(raw: string) {
+  const key = String(raw || "").toLowerCase().trim();
+  if (!key) return SELECTED[0]?.sector || "beauty";
+  if (SECTOR_ALIASES[key]) return SECTOR_ALIASES[key];
+  for (const [alias, sector] of Object.entries(SECTOR_ALIASES)) {
+    if (key.includes(alias) || alias.includes(key)) return sector;
+  }
+  return key;
 }
 
-function matchesSector(p: any, sector: string) {
-  const keys = SECTOR_KEYWORDS[sector] || SECTOR_KEYWORDS.beauty;
-  const text = [p.name, p.category, p.sku].join(" ").toLowerCase();
-  return keys.some((k) => text.includes(k));
+function curated(sector: string) {
+  return SELECTED
+    .filter((p) => !p.sector || String(p.sector).toLowerCase() === sector)
+    .map((p, i) => ({
+      id: String(p.id || `printful-selected-${i}`),
+      sku: String(p.sku || ""),
+      supplier: "Printful",
+      provider: "printful",
+      name: String(p.name || "Printful product"),
+      category: String(p.category || sector),
+      supplierPriceUsd: money(p.supplierPriceUsd) || money(p.suggestedRetailUsd),
+      suggestedRetailUsd: money(p.suggestedRetailUsd) || money(p.supplierPriceUsd),
+      image: String(p.image || ""),
+      sector: String(p.sector || sector),
+    }))
+    .filter((p) => p.suggestedRetailUsd > 0 && p.name);
 }
 
-export default async (req: Request) => {
+export default async (req: Request, context: any) => {
   if (req.method !== "GET") return Response.json({ error: "Method not allowed" }, { status: 405 });
-  const token = Netlify.env.get("PRINTFUL_API_TOKEN");
-  const reqUrl = new URL(req.url);
-  const wanted = (reqUrl.searchParams.get("q") || reqUrl.searchParams.get("sector") || "beauty").toLowerCase().trim();
-  const sector = SECTOR_KEYWORDS[wanted] ? wanted : "beauty";
-  const headersOut = { "access-control-allow-origin": "*", "cache-control": "public, max-age=300" };
-  if (!token) return Response.json({ error: "Printful is not configured", products: [], sector, query: sector }, { status: 503, headers: headersOut });
-  try {
-    const headers: Record<string, string> = { Authorization: `Bearer ${token}` };
-    const pfStore = Netlify.env.get("PRINTFUL_STORE_ID"); if (pfStore) headers["X-PF-Store-Id"] = String(pfStore);
-    const url = new URL(BASE + "/store/products");
-    url.searchParams.set("limit", "20");
-    url.searchParams.set("offset", "0");
-    const response = await fetch(url, { headers });
-    const result: any = await response.json();
-    if (!response.ok) {
-      return Response.json({ error: result?.error?.message || result?.result || "Printful product request failed", products: [] }, { status: 502, headers: headersOut });
-    }
-    const list = Array.isArray(result?.result) ? result.result : [];
-    let products = list.map(normalize).filter((p: any) => p.name);
-    const detailed = [];
-    for (const product of products.slice(0, 20)) {
-      try {
-        const detailRes = await fetch(`${BASE}/store/products/${product.id}`, { headers });
-        const detail: any = await detailRes.json();
-        if (!detailRes.ok) { detailed.push(product); continue; }
-        const variants = Array.isArray(detail?.result?.sync_variants) ? detail.result.sync_variants : [];
-        const priced = variants.find((v: any) => money(v?.retail_price) > 0) || variants[0];
-        const retail = money(priced?.retail_price);
-        detailed.push({
-          ...product,
-          sku: String(priced?.sku || product.sku || ""),
-          supplierPriceUsd: retail || product.supplierPriceUsd,
-          suggestedRetailUsd: retail || product.suggestedRetailUsd,
-          image: product.image || String(priced?.files?.find?.((f: any) => f?.type === "preview")?.preview_url || ""),
-        });
-      } catch (_) {
-        detailed.push(product);
-      }
-    }
-    let out = detailed.filter((p: any) => p.suggestedRetailUsd > 0);
-    const filtered = out.filter((p) => matchesSector(p, sector));
-    if (filtered.length >= 1) out = filtered;
-    return Response.json({
+  const url = new URL(req.url);
+  const wanted = url.searchParams.get("q") || url.searchParams.get("sector") || "";
+  const defaultSector = String(SELECTED[0]?.sector || "beauty");
+  const sector = resolveSector(wanted || defaultSector);
+  const headers = { "access-control-allow-origin": "*", "cache-control": "public, max-age=60" };
+  const products = curated(sector).slice(0, 30);
+  return Response.json(
+    {
       ok: true,
       supplier: "printful",
       sector,
       query: sector,
-      products: out.slice(0, 30),
+      products,
+      count: products.length,
+      source: "printful-selected-primary",
       markets: ["NO", "EU", "PE"],
-    }, { headers: headersOut });
-  } catch (error) {
-    return Response.json({ error: error instanceof Error ? error.message : "Printful request failed", products: [] }, { status: 502, headers: headersOut });
-  }
+    },
+    { status: products.length ? 200 : 503, headers }
+  );
 };
 export const config = { path: "/api/printful-products" };
