@@ -12,7 +12,8 @@
     "suggestedRetailUsd": 22.5,
     "image": "https://images.unsplash.com/photo-1590874103328-eac38a67478e?auto=format&fit=crop&w=800&q=80",
     "matchType": "tote",
-    "sector": "home living"
+    "sector": "home living",
+    "printifyShopId": "28847802"
   },
   {
     "id": "printful-home-living-2",
@@ -27,7 +28,8 @@
     "suggestedRetailUsd": 21.9,
     "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
     "matchType": "tote",
-    "sector": "home living"
+    "sector": "home living",
+    "printifyShopId": "28847802"
   },
   {
     "id": "printful-home-living-3",
@@ -42,7 +44,8 @@
     "suggestedRetailUsd": 23.5,
     "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=800&q=80",
     "matchType": "tote",
-    "sector": "home living"
+    "sector": "home living",
+    "printifyShopId": "28847802"
   },
   {
     "id": "printful-home-living-4",
@@ -57,7 +60,8 @@
     "suggestedRetailUsd": 24.9,
     "image": "https://images.unsplash.com/photo-1513519245088-0e12902e35a6?auto=format&fit=crop&w=800&q=80",
     "matchType": "poster",
-    "sector": "home living"
+    "sector": "home living",
+    "printifyShopId": "28847802"
   },
   {
     "id": "printful-home-living-5",
@@ -72,7 +76,8 @@
     "suggestedRetailUsd": 23.9,
     "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80",
     "matchType": "poster",
-    "sector": "home living"
+    "sector": "home living",
+    "printifyShopId": "28847802"
   },
   {
     "id": "printful-home-living-6",
@@ -87,7 +92,8 @@
     "suggestedRetailUsd": 22.9,
     "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=800&q=80",
     "matchType": "poster",
-    "sector": "home living"
+    "sector": "home living",
+    "printifyShopId": "28847802"
   },
   {
     "id": "printful-home-living-7",
@@ -102,7 +108,8 @@
     "suggestedRetailUsd": 19.9,
     "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcc036?auto=format&fit=crop&w=800&q=80",
     "matchType": "mug",
-    "sector": "home living"
+    "sector": "home living",
+    "printifyShopId": "28847802"
   },
   {
     "id": "printful-home-living-8",
@@ -117,7 +124,8 @@
     "suggestedRetailUsd": 18.9,
     "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80",
     "matchType": "mug",
-    "sector": "home living"
+    "sector": "home living",
+    "printifyShopId": "28847802"
   },
   {
     "id": "printful-home-living-9",
@@ -132,7 +140,8 @@
     "suggestedRetailUsd": 17.9,
     "image": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?auto=format&fit=crop&w=800&q=80",
     "matchType": "mug",
-    "sector": "home living"
+    "sector": "home living",
+    "printifyShopId": "28847802"
   },
   {
     "id": "printful-home-living-10",
@@ -147,7 +156,8 @@
     "suggestedRetailUsd": 21.5,
     "image": "https://images.unsplash.com/photo-1556911220-bff31c9870c0?auto=format&fit=crop&w=800&q=80",
     "matchType": "poster",
-    "sector": "home living"
+    "sector": "home living",
+    "printifyShopId": "28847802"
   },
   {
     "id": "printful-home-living-11",
@@ -162,7 +172,8 @@
     "suggestedRetailUsd": 20.9,
     "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
     "matchType": "tote",
-    "sector": "home living"
+    "sector": "home living",
+    "printifyShopId": "28847802"
   },
   {
     "id": "printful-home-living-12",
@@ -177,7 +188,8 @@
     "suggestedRetailUsd": 16.9,
     "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcc036?auto=format&fit=crop&w=800&q=80",
     "matchType": "mug",
-    "sector": "home living"
+    "sector": "home living",
+    "printifyShopId": "28847802"
   },
   {
     "id": "printful-home-living-13",
@@ -192,7 +204,8 @@
     "suggestedRetailUsd": 23.5,
     "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=800&q=80",
     "matchType": "poster",
-    "sector": "home living"
+    "sector": "home living",
+    "printifyShopId": "28847802"
   },
   {
     "id": "printful-home-living-14",
@@ -207,7 +220,8 @@
     "suggestedRetailUsd": 17.5,
     "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80",
     "matchType": "mug",
-    "sector": "home living"
+    "sector": "home living",
+    "printifyShopId": "28847802"
   },
   {
     "id": "printful-home-living-15",
@@ -222,6 +236,257 @@
     "suggestedRetailUsd": 22.9,
     "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=800&q=80",
     "matchType": "tote",
-    "sector": "home living"
+    "sector": "home living",
+    "printifyShopId": "28847802"
+  },
+  {
+    "id": "printful-home-living-16",
+    "sku": "PFL-HOME-POSTER-FIRE",
+    "supplier": "Printful",
+    "provider": "printful",
+    "sector": "home living",
+    "matchType": "poster",
+    "matchTypes": [
+      "poster",
+      "tote",
+      "mug"
+    ],
+    "printifyShopId": "28847802",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Fireside Quote Poster",
+    "category": "Decor",
+    "supplierPriceUsd": 7.5,
+    "suggestedRetailUsd": 23.9,
+    "priceNOK": 270,
+    "priceEUR": 23.9,
+    "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=800&q=80",
+    "status": "sector-selected-curated",
+    "notes": "Sector home living curated Printify-facing item."
+  },
+  {
+    "id": "printful-home-living-17",
+    "sku": "PFL-HOME-TOTE-SLOW",
+    "supplier": "Printful",
+    "provider": "printful",
+    "sector": "home living",
+    "matchType": "tote",
+    "matchTypes": [
+      "tote",
+      "poster",
+      "mug"
+    ],
+    "printifyShopId": "28847802",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Slow Sunday Market Tote",
+    "category": "Living",
+    "supplierPriceUsd": 7.1,
+    "suggestedRetailUsd": 22.5,
+    "priceNOK": 254,
+    "priceEUR": 22.5,
+    "image": "https://images.unsplash.com/photo-1590874103328-eac38a67478e?auto=format&fit=crop&w=800&q=80",
+    "status": "sector-selected-curated",
+    "notes": "Sector home living curated Printify-facing item."
+  },
+  {
+    "id": "printful-home-living-18",
+    "sku": "PFL-HOME-MUG-CINNAMON",
+    "supplier": "Printful",
+    "provider": "printful",
+    "sector": "home living",
+    "matchType": "mug",
+    "matchTypes": [
+      "mug",
+      "tote",
+      "poster"
+    ],
+    "printifyShopId": "28847802",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Cinnamon Morning Mug",
+    "category": "Kitchen",
+    "supplierPriceUsd": 6.5,
+    "suggestedRetailUsd": 18.5,
+    "priceNOK": 209,
+    "priceEUR": 18.5,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcc036?auto=format&fit=crop&w=800&q=80",
+    "status": "sector-selected-curated",
+    "notes": "Sector home living curated Printify-facing item."
+  },
+  {
+    "id": "printful-home-living-19",
+    "sku": "PFL-HOME-POSTER-NEST",
+    "supplier": "Printful",
+    "provider": "printful",
+    "sector": "home living",
+    "matchType": "poster",
+    "matchTypes": [
+      "poster",
+      "tote",
+      "mug"
+    ],
+    "printifyShopId": "28847802",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Nordic Nest Wall Poster",
+    "category": "Decor",
+    "supplierPriceUsd": 7.5,
+    "suggestedRetailUsd": 24.5,
+    "priceNOK": 277,
+    "priceEUR": 24.5,
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80",
+    "status": "sector-selected-curated",
+    "notes": "Sector home living curated Printify-facing item."
+  },
+  {
+    "id": "printful-home-living-20",
+    "sku": "PFL-HOME-TOTE-BREAD",
+    "supplier": "Printful",
+    "provider": "printful",
+    "sector": "home living",
+    "matchType": "tote",
+    "matchTypes": [
+      "tote",
+      "poster",
+      "mug"
+    ],
+    "printifyShopId": "28847802",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Bread Day Kitchen Tote",
+    "category": "Kitchen",
+    "supplierPriceUsd": 7.1,
+    "suggestedRetailUsd": 21.9,
+    "priceNOK": 247,
+    "priceEUR": 21.9,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+    "status": "sector-selected-curated",
+    "notes": "Sector home living curated Printify-facing item."
+  },
+  {
+    "id": "printful-home-living-21",
+    "sku": "PFL-HOME-MUG-CANDLE",
+    "supplier": "Printful",
+    "provider": "printful",
+    "sector": "home living",
+    "matchType": "mug",
+    "matchTypes": [
+      "mug",
+      "tote",
+      "poster"
+    ],
+    "printifyShopId": "28847802",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Candle Hour Ceramic Mug",
+    "category": "Living",
+    "supplierPriceUsd": 6.5,
+    "suggestedRetailUsd": 17.9,
+    "priceNOK": 202,
+    "priceEUR": 17.9,
+    "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80",
+    "status": "sector-selected-curated",
+    "notes": "Sector home living curated Printify-facing item."
+  },
+  {
+    "id": "printful-home-living-22",
+    "sku": "PFL-HOME-POSTER-GEO",
+    "supplier": "Printful",
+    "provider": "printful",
+    "sector": "home living",
+    "matchType": "poster",
+    "matchTypes": [
+      "poster",
+      "tote",
+      "mug"
+    ],
+    "printifyShopId": "28847802",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Soft Geometry Poster",
+    "category": "Decor",
+    "supplierPriceUsd": 7.5,
+    "suggestedRetailUsd": 22.9,
+    "priceNOK": 259,
+    "priceEUR": 22.9,
+    "image": "https://images.unsplash.com/photo-1513519245088-0e12902e35a6?auto=format&fit=crop&w=800&q=80",
+    "status": "sector-selected-curated",
+    "notes": "Sector home living curated Printify-facing item."
+  },
+  {
+    "id": "printful-home-living-23",
+    "sku": "PFL-HOME-TOTE-LAUNDRY",
+    "supplier": "Printful",
+    "provider": "printful",
+    "sector": "home living",
+    "matchType": "tote",
+    "matchTypes": [
+      "tote",
+      "poster",
+      "mug"
+    ],
+    "printifyShopId": "28847802",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Laundry Day Linen Tote",
+    "category": "Living",
+    "supplierPriceUsd": 7.1,
+    "suggestedRetailUsd": 20.9,
+    "priceNOK": 236,
+    "priceEUR": 20.9,
+    "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=800&q=80",
+    "status": "sector-selected-curated",
+    "notes": "Sector home living curated Printify-facing item."
+  },
+  {
+    "id": "printful-home-living-24",
+    "sku": "PFL-HOME-MUG-COCOA",
+    "supplier": "Printful",
+    "provider": "printful",
+    "sector": "home living",
+    "matchType": "mug",
+    "matchTypes": [
+      "mug",
+      "tote",
+      "poster"
+    ],
+    "printifyShopId": "28847802",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Night Cocoa Mug",
+    "category": "Kitchen",
+    "supplierPriceUsd": 6.5,
+    "suggestedRetailUsd": 16.9,
+    "priceNOK": 191,
+    "priceEUR": 16.9,
+    "image": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?auto=format&fit=crop&w=800&q=80",
+    "status": "sector-selected-curated",
+    "notes": "Sector home living curated Printify-facing item."
+  },
+  {
+    "id": "printful-home-living-25",
+    "sku": "PFL-HOME-POSTER-WINDOW",
+    "supplier": "Printful",
+    "provider": "printful",
+    "sector": "home living",
+    "matchType": "poster",
+    "matchTypes": [
+      "poster",
+      "tote",
+      "mug"
+    ],
+    "printifyShopId": "28847802",
+    "printifyProductId": "",
+    "printifyVariantId": "",
+    "name": "Window Light Botanica Poster",
+    "category": "Decor",
+    "supplierPriceUsd": 7.5,
+    "suggestedRetailUsd": 25.5,
+    "priceNOK": 288,
+    "priceEUR": 25.5,
+    "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=800&q=80",
+    "status": "sector-selected-curated",
+    "notes": "Sector home living curated Printify-facing item."
   }
 ]
