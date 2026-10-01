@@ -8,10 +8,10 @@
   const CART_KEY = "nordic-cart:" + STORE;
   const ORDER_KEY = "nordic-orders:" + STORE;
   const CONTACT_EMAILS = {
-    info: "info@mlinternasjonal.no",
-    support: "support@mlinternasjonal.no",
-    orders: "orders@mlinternasjonal.no",
-    marketing: "marketing@mlinternasjonal.no"
+    info: "kontakt@domheim.no",
+    support: "support@domheim.no",
+    orders: "orders@domheim.no",
+    marketing: "kontakt@domheim.no"
   };
   let started = false;
 
