@@ -1,0 +1,34 @@
+{
+  "categories": [
+    {
+      "no": "Oppbevaring",
+      "es": "Almacenamiento",
+      "intro_no": "Når du velger oppbevaring, bør du først kontrollere hva som skal oppbevares og hvor løsningen skal stå. Sammenlign mål, materialer og oppgitt kapasitet med behovene dine, og vurder om størrelsen passer til rommet og tingene du vil organisere. Se etter opplysninger om montering, rengjøring og tilgjengelige rominndelinger og bruksinstruksjoner på produktsiden. Tenk gjennom hvor og hvordan produktet skal brukes; mål, materialer og kompatibilitet kan påvirke valget. Hvis en viktig opplysning mangler, kontakt butikken før du bestiller.",
+      "intro_es": "Al elegir almacenamiento, revisa qué guardarás y dónde irá la solución. Compara las medidas, los materiales y la capacidad indicada con lo que necesitas y considera si el tamaño sirve para el espacio y los objetos que quieres ordenar. Comprueba el montaje, la limpieza y la distribución interior disponible. Las medidas, los materiales y la compatibilidad influyen en la elección. Si falta un dato importante, contacta con la tienda antes de comprar."
+    },
+    {
+      "no": "Belysning",
+      "es": "Iluminación",
+      "intro_no": "Når du velger belysning, bør du først kontrollere hvor lampen skal plasseres og hva slags lys du trenger. Sammenlign mål, materialer og oppgitte tilkoblingskrav med behovene dine, og vurder om format og tekniske opplysninger passer til rommet. Se etter opplysninger om monteringsråd og informasjon om lyskilde hvis oppgitt og bruksinstruksjoner på produktsiden. Tenk gjennom hvor og hvordan produktet skal brukes; mål, materialer og kompatibilitet kan påvirke valget. Hvis en viktig opplysning mangler, kontakt butikken før du bestiller.",
+      "intro_es": "Al elegir iluminación, revisa dónde ubicarás la lámpara y qué tipo de luz necesitas. Compara las medidas, los materiales y los requisitos de conexión indicados con lo que necesitas y considera si el formato y los datos técnicos encajan en la estancia. Comprueba las indicaciones de montaje y la fuente de luz si se especifica. Las medidas, los materiales y la compatibilidad influyen en la elección. Si falta un dato importante, contacta con la tienda antes de comprar."
+    },
+    {
+      "no": "Interiørtekstiler",
+      "es": "Textiles de interior",
+      "intro_no": "Når du velger interiørtekstiler, bør du først kontrollere hvor tekstilet skal brukes og hvilke mål som passer. Sammenlign mål, materialbeskrivelse og vaskeanvisning med behovene dine, og vurder om tekstilets format og stell passer til rommet og hverdagen. Se etter opplysninger om materialer, rengjøring og vedlikehold og bruksinstruksjoner på produktsiden. Tenk gjennom hvor og hvordan produktet skal brukes; mål, materialer og kompatibilitet kan påvirke valget. Hvis en viktig opplysning mangler, kontakt butikken før du bestiller.",
+      "intro_es": "Al elegir textiles de interior, revisa dónde usarás el textil y qué medidas necesitas. Compara las medidas, la descripción del material y las instrucciones de lavado con lo que necesitas y considera si el formato y cuidado del tejido se adaptan a tu espacio y rutina. Comprueba los materiales, la limpieza y el mantenimiento. Las medidas, los materiales y la compatibilidad influyen en la elección. Si falta un dato importante, contacta con la tienda antes de comprar."
+    },
+    {
+      "no": "Dekor og veggpynt",
+      "es": "Decoración y adornos de pared",
+      "intro_no": "Når du velger dekor og veggpynt, bør du først kontrollere plassering, tilgjengelig veggflate og ønsket uttrykk. Sammenlign mål, materialer og eventuell monteringsinformasjon med behovene dine, og vurder om format og feste passer til underlaget. Se etter opplysninger om oppgitte dimensjoner, materiale og montering og bruksinstruksjoner på produktsiden. Tenk gjennom hvor og hvordan produktet skal brukes; mål, materialer og kompatibilitet kan påvirke valget. Hvis en viktig opplysning mangler, kontakt butikken før du bestiller.",
+      "intro_es": "Al elegir decoración y adornos de pared, revisa la ubicación, el espacio de pared y el estilo que buscas. Compara las medidas, los materiales y la información de montaje disponible con lo que necesitas y considera si el formato y la fijación son adecuados para la superficie. Comprueba las dimensiones, el material y el montaje indicados. Las medidas, los materiales y la compatibilidad influyen en la elección. Si falta un dato importante, contacta con la tienda antes de comprar."
+    },
+    {
+      "no": "Kjøkkenoppbevaring",
+      "es": "Organización de cocina",
+      "intro_no": "Når du velger kjøkkenoppbevaring, bør du først kontrollere hva som skal organiseres og hvor løsningen skal brukes. Sammenlign mål, materiale og rengjøringsinformasjon med behovene dine, og vurder om produktet passer til skap, benk eller skuff der det skal stå. Se etter opplysninger om innvendige mål og eventuelle vedlikeholdsråd og bruksinstruksjoner på produktsiden. Tenk gjennom hvor og hvordan produktet skal brukes; mål, materialer og kompatibilitet kan påvirke valget. Hvis en viktig opplysning mangler, kontakt butikken før du bestiller.",
+      "intro_es": "Al elegir organización de cocina, revisa qué quieres organizar y dónde usarás la solución. Compara las medidas, el material y la información de limpieza con lo que necesitas y considera si el producto cabe en el armario, encimera o cajón previsto. Comprueba las medidas interiores y las indicaciones de cuidado disponibles. Las medidas, los materiales y la compatibilidad influyen en la elección. Si falta un dato importante, contacta con la tienda antes de comprar."
+    }
+  ]
+}
